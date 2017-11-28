@@ -8,18 +8,18 @@ public class restaurante {
 		System.out.println("Introduzca importe:");
 		//Almacenamos en la variable num
 		imp=teclado.nextInt();
-		impues=imp*0.019;
+		impues=imp*0.19;
 		//condicion
 		if(imp<=100){
-			descu=0.01*imp;
+			descu=0.1*imp;
 			imp=imp-descu;
 			imptotal=imp+impues;
 		}else{
-			descu=0.02*imp;
+			descu=0.2*imp;
 			imp=imp-descu;
 			imptotal=imp+impues;
 		}
-		System.out.println("El importe total es de: "+imptotal+"€ su descuento es de: "+descu+"€ y su impuesto es de: "+impues+"€");
+		System.out.println("El importe total es de: "+imptotal+"ï¿½ su descuento es de: "+descu+"ï¿½ y su impuesto es de: "+impues+"ï¿½");
 	}
 
 }
